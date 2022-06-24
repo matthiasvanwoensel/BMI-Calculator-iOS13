@@ -40,6 +40,7 @@ struct CalculatorBrain{
     
     func getAdvice() -> String{
         return bmi?.advice ?? "No advice"
+        // zie je mij???
     }
     
     func getColor() -> UIColor{
